@@ -30,7 +30,10 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  /* border:1px solid black; */
+ 
     width:1600px;
+    height:2300px;
 }
 ol, ul {
 	list-style: none;
@@ -51,7 +54,8 @@ table {
 
 
 body{
- 
+  /* border:1px solid black; */
+
   font-family: "LXGW WenKai TC", cursive;
   font-weight: 400;
   font-style: normal;
@@ -59,7 +63,7 @@ body{
 }
 .container{
   margin:0 auto;
-  width: 1500px;
+  width: 1520px;
 }
 
 .header img{
@@ -74,8 +78,8 @@ body{
 
 .main{
  display: flex;
-border-bottom:1px solid black;
-    border-top:1px solid black;
+
+  
   width:1296px;
   padding:0px 12px;
 }
@@ -83,9 +87,10 @@ border-bottom:1px solid black;
 .mainLeft{
   border-right:1px solid black;
   width:750px;
+  padding-bottom:48px;
 }
 .mainRight{
- 
+  padding-bottom:48px;
   width:750px;
 }
 .text{
@@ -96,8 +101,8 @@ border-bottom:1px solid black;
 .text-center{
   text-align:center;
 }
-.h1{
-  font-size: 68px;
+h1,.h1{
+  font-size: 96px;
   color:brown;
  
 }
@@ -130,21 +135,23 @@ border-bottom:1px solid black;
 .text-left{
   text-align:left;
 }
-h3{
-  font-size: 32px;
+h3,.h3{
+  font-size: 48px;
 }
 input[type="checkbox"] {
     width: 40px;  /* 设置宽度 */
     height: 40px; /* 设置高度 */
 }
 
-.h2{
-  font-size: 48px;
+h2,.h2{
+  font-size: 96px;
 }
 .mr-24{
   margin-right: 24px;
 }
-
+.w-250{
+  width:250px;
+}
 .w-150{
   width:150px;
 }
@@ -162,6 +169,14 @@ input[type="checkbox"] {
 .w-180{
   width:180px;
 }
+.bottom{
+  display: flex;
+}
+.bottom img{
+  width:20%;
+  height:250px;
+}
+
 @media print {
   body {
     transform: scale(0.9); /* 缩小内容 */

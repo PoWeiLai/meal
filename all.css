@@ -51,7 +51,9 @@ table {
 
 
 body{
+  border:1px solid black;
   width:1600px;
+  height:2330px;
   font-family: "LXGW WenKai TC", cursive;
   font-weight: 400;
   font-style: normal;
@@ -59,60 +61,72 @@ body{
 }
 .container{
   margin:0 auto;
-  width: 1500px;
+  width: 1520px;
+
 }
 
 .header img{
   width:100%;
 }
+.header{
+  border-bottom:1px solid black;
+}
 .nav{
   display: flex;
   justify-content: space-between;
-  border-bottom:1px solid black;
+
 }
 .navLeft,.navRight{
-  width:255px;
+  width:400px;
  
 }
-.main{
-  display: flex;
+.mainleft,.mainright{
+  width: 50%;
+
+}
+.mainleft{
+  border-right:1px solid black;
+  padding-right:10px;
+}
+.mainright{
+  padding-left:20px;
 }
 
 .title{
-  padding: 12px 0px;
+  padding: 24px 0px;
 }
 
-.mainLeft{
-  border-right:1px solid black;
-  width:750px;
-}
-.mainRight{
- 
-  width:750px;
-}
+
+
 .text{
   display: flex;
-  justify-content:space-between;
+/*   justify-content:space-between; */
   padding:10px 0px;
 }
 .text-center{
   text-align:center;
 }
-.h1{
-  font-size: 68px;
+.h1,h1{
+  font-size: 96px;
   color:brown;
 }
-.h2{
-  font-size: 32px;
+.h2,h2{
+  font-size: 72px;
 }
 .fw-bold{
   font-weight:bold;
+}
+.d-flex{
+  display:flex;
 }
 .mb-24{
   margin-bottom:24px;
 }
 .pt-24{
   padding-top:24px;
+}
+.pb-24{
+  padding-bottom:24px;
 }
 .pt-40{
   padding-top:40px;
@@ -134,7 +148,7 @@ body{
   text-align:left;
 }
 h3,.h3{
-  font-size: 28px;
+  font-size: 48px;
 }
 input[type="checkbox"] {
     width: 40px;  /* 设置宽度 */
@@ -155,19 +169,46 @@ input[type="checkbox"] {
 }
 .footer{
   border-top:1px solid black;
+
+}
+.footerItem{
+  display: flex;
+ justify-content: center;
+}
+.footer img{
+  padding-top:60px;
+  width:1520px;
+  height:300px;
 }
 .chooseList{
-
+  width:335px;
   text-align: start;
 }
 .w-150{
 width:150px;
 
 }
+.pb-96{
+  padding-bottom:96px;
+}
+.pb-24{
+  padding-bottom:24px;
+}
+.w-350{
+  width: 350px;
+}
 .w-200{
   width:200px;
   
   }
+.w-300{
+  width: 300px;
+}
+.w-250{
+  width:250px;
+  
+  }
+
 .text-red{
  color:red
 
@@ -175,10 +216,39 @@ width:150px;
 .text-shadow{
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
+.text-blue{
+  color:blue;
+}
+.pt-12{
+  padding-top:12px;
+}
+.pt-48{
+  padding-top:48px;
+}
+.pl-36{
+  padding-left:36px;  
+}
+.content{
+  display: flex;
+}
+.contentLeft{
+  padding-right:40px;
+  border-right:1px solid black;
+}
+.contentRight{
+  padding-left:40px;
+}
 @media print {
   body {
     transform: scale(0.9); /* 缩小内容 */
     transform-origin: top left;
   }
 }
+h4,.h4{
+  font-size: 36px;
+}
+.pxy{
+  padding:24px 84px;
+}
+
+
